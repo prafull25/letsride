@@ -1,17 +1,30 @@
 # letsride
 #1. clon the repo
+
 git clon https://github.com/prafull25/letsride.git
+
 #2. Create virtual environment
+
 $ python3 -m venv venv
+
 $ source venv/bin/activate
+
 #3. Install requirements
+
 $ pip install -r requirements.txt
+
 #4. Make  migrations
+
 $ python manage.py makemigrations
+
 $ python manage.py migrate
+
 #5. create Super User (Optional)
+
 $ python manage.py createsuperuser
+
 # 6. Runserver
+
 $ python manage.py runserver
 
 
