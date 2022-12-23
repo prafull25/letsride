@@ -17,9 +17,13 @@ $ python manage.py runserver
 
 #API Endpoints are:(exapmle)
 http://127.0.0.1:8000/rider/request/
+
 http://127.0.0.1:8000/rider/riderinfo/
+
 http://127.0.0.1:8000/rider/myrequest/<reqid>/
+
 http://127.0.0.1:8000/rider/apply/<riderid>/
+
 http://127.0.0.1:8000/rider/matchingrides/
 
 respective requestbody can be seen from the models and the viewa
